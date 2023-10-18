@@ -4,19 +4,22 @@ body {
 }
 
 .container {
-    justify-content: center;
+    justify-content: center; 
+    
 }
+
 
 .list {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .nav-list {
     display: flex;
     flex-wrap: nowrap;
-    padding-right: 40px;
+    padding-right: 120px;
+    padding-left: 120px;
 }
 
 .head-list {
@@ -44,15 +47,194 @@ body {
     border: none;
     appearance: none;
     background: url(img/material-symbols_keyboard-arrow-down-rounded.svg) right center no-repeat;
-    background-position: right center; /* Указываем позицию фонового изображения */
+    background-position: right center; 
     padding-right: 15px;
-    padding-left: 40px;
+    padding-left: 120px;
 }
 
 main {
-    background-image: url(img/Rectangle\ 23.png);
+    display: flex;
+    background: linear-gradient(0deg, rgba(61, 52, 139, 0.50) 0%, rgba(61, 52, 139, 0.50) 100%), url(img/Rectangle\ 23.png) no-repeat center center / cover;    
+    
 }
 
 .min {
-    margin-top: 0px;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    align-self: stretch;
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
 }
+
+.about-company {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.about-img {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 15px;
+    margin-top: 60px;
+    margin-bottom: 238px;
+}
+
+.img-str {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.img-str svg:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.about-parag {
+    margin: 0px;
+    width: 322px;
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.about-text {
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.str {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+header nav ul > li {
+    color: var(--black, #333);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+select {
+    color: var(--black, #333);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.about-card > div {
+    width: 306px;
+    background-color: #5DB7DE;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 118px;
+    margin: 20px;
+}
+
+.sectionone {
+    margin-top: 113px;
+    margin-left: 220px;
+}
+
+.sectiontwo {
+    margin-top: 113px;
+}
+
+.about-card {
+
+    max-width: 627px;
+}
+
+.about-card div > h3 {
+    align-self: stretch;
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    margin: 0px;
+}
+
+.about-card div > h4 {
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.endworkblyat {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    opacity: 0.85;
+    background: var(--purple, #3D348B);
+}
+
+.connect {
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+.map {
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+footer p {
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+}
+
+
+
